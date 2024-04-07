@@ -113,10 +113,10 @@ A section on Spatiotemporal Design, which includes your molecule diagram and ann
 No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
-![checkpoint and acid](DocImages/map.PNG)
+![molecule](DocImages/molecule.PNG)
 
 ### 3.2. Level Map
-![checkpoint and acid](DocImages/map.PNG)
+![map](DocImages/map.PNG)
 
 ## 4. Iterative Design (~400 words)
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
