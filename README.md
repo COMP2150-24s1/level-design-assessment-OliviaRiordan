@@ -4,15 +4,6 @@
 
 This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
 
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
 
 ## 1. Player Experience (~700 words)
 Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
@@ -70,30 +61,37 @@ I chose to have checkpoints as the first mechanic for the player to encounter so
 
 ### 2.2. Acid
 I made the acid the first dangerous mechanic that the player encounters because it doesn’t go above the ground like the spikes and does not outwardly attack the players, making it my preferred introduction to dangerous elements in the game.
+
 ![checkpoint and acid](DocImages/acidCheck.PNG)
 
 ### 2.3. Health Pickups 
 I put the first health pick up after the first acid encounter so that the player wouldn’t be too harshly punished if they didn’t get through the encounter on their first attempt. Furthermore, it would put the player in a more confident position moving forward as they wouldn’t be as concerned with the number of lives remaining.
+
 ![health](DocImages/health.PNG)
 
 ### 2.4. Passthrough Platforms
 I wanted to introduce the passthrough platforms next because I thought that they would a useful element to include as the player progressed through section one without dropping through holes in the ground, making the level feel more complete.
+
 ![passthrough](DocImages/pass%20through.PNG)
 
 ### 2.5. Moving Platforms
 Having the moving platform next allowed me to introduce switches and how they work while also being able to have the first opportunity for the player to decompress after what they’d done. 
+
 ![switch and moving platform](DocImages/movingPlatform.PNG)
 
 ### 2.6. Spikes
 I put the spikes here to reintroduce the player to danger after the moving platform without having the ‘enemy’ attack the player. It also allowed for some more precision training with the jump button.
+
 ![spike](DocImages/spike.PNG)
 
 ### 2.7. Weapon Pickup (Staff)
 I put this next as I thought the player would be ready to handle a weapon and how it can be used. Furthermore, it would also allow me to start introducing breakable columns as a way to segment between encounters.
+
 ![staff and column](DocImages/staff.PNG)
 
 ### 2.8. Chompers
 I introduced chompers at this point so that the player could attempt combat with the staff and learn how to use it to defeat an enemy. It was also close enough to the staff being introduced that the player would be able to connect the staff to the chomper.
+
 ![chomper](DocImages/chomper.PNG)
 
 ### 2.9. Weapon Pickup (Gun)
@@ -101,10 +99,12 @@ I introduced this here so that the player would have a way to protect themself a
 
 ### 2.10. Spitters
 I introduced this enemy type last as I thought it was the most dangerous and to keep with the dramatic arc and not wanting to overwhelm the player too soon, I chose to introduce it now.
+
 ![gun and spitter](DocImages/gun.PNG)
 
 ### 2.11. Keys
 I introduced this last as a way of almost congratulating the player for completing the tutorial section of the level, also due to only needing three, I wanted them to mark the end of each section and have them feel rare.
+
 ![key](DocImages/key.PNG)
 
 ## 3. Spatiotemporal Design
@@ -113,6 +113,7 @@ A section on Spatiotemporal Design, which includes your molecule diagram and ann
 No additional words are necessary for this section (any words should only be within your images/diagrams).
  
 ### 3.1. Molecule Diagram
+![checkpoint and acid](DocImages/map.PNG)
 
 ### 3.2. Level Map
 ![checkpoint and acid](DocImages/map.PNG)
@@ -130,8 +131,8 @@ To plan these out I drew up extra sections for the level map so that I could vis
 Originally I had an option to choose a parkour section or a combat encounter, however the enemies were a lot easier to kill than I had originally anticipated. To fix this disparity between the parkour and the combat I decided to force the character to do both sections and also add some extra combat to make the game longer.
 
 I think that some of the later combat encounters could benefit from some more iterative design as they don’t feel as challenging as I was hoping that they would. For this I think some paper prototyping would be useful and possibly using an enemy spawner so there aren’t as many to attack at once, whilst still having a lot of enemies to defeat.
-![first level map addition](DocImages/parkour1.png)
-![second level map addition](DocImages/parkour2.png)
+![first level map addition](DocImages/parkour1.PNG)
+![second level map addition](DocImages/parkour2.PNG)
 
 ## Generative AI Use Acknowledgement
 
