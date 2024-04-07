@@ -19,15 +19,32 @@ Outline and justify how your level design facilitates the core player experience
 
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
+During my level the player learns how defeat, interact with or avoid different game elements including chompers, switches and acid respectively. When introducing the staff I put a destructible column in front of it. The goal of doing this was to prompt the player to use the tool they had just picked up and give them a safe opportunity to use it before needing to use it against an enemy. However, doing so like this means the player won’t feel like they are being spoon fed how to do things in the game.
+
+By extension I tried to make sure that when introducing elements, I would have two sections of it, an easier and a more difficult part. This allowed me to implement the dramatic curve and not overwhelming the player with continuous new elements that seemed disconnected.
+
+Doing both of these allowed me to implement good design practice as elements were connected, and placed in areas that allow the player to learn without spoon feeding or using text to explain to the player.
 
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+I tried to implement a dramatic curve throughout my level by implementing encounters that involve basic parkour or sitting on a moving platform. The goal of doing this was to allow the player to come off any adrenaline from the previous encounter and give them a short opportunity to decompress before continuing with the level. One example of this is after defeating a set of enemies at the end of the first section. This is followed by going through a portal and going through an area that has platforms that are relatively easy to jump between. I tried to make this encounter engaging enough so the player doesn’t get bored but calm enough that the player has time to relax after the aforementioned enemies.
+
+After trying my first version of the game I didn’t think I had effectively stayed within the dramatic curve as there weren’t enough sections for the player to decompress, particularly after the combat encounters. I tried adding some parkour sections so that the player could decompress somewhat, whilst still being involved enough within the game to stay within the dramatic curve.
+
+To have an overall increase in difficulty, however, I tried make the game harder as it progressed. This can be seen in section 2 with the acid drop encounter compared to the tutorial where the player only needs to jump over small pools of the acid. Furthermore, in the final section there are slightly larger groups of enemies that the player must overcome, this is designed to contrast earlier sections of the game. 
 
 ### 1.3. Challenge
 What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+The main challenge that I implemented was in the final section of the level. It incorporated most of the mechanics in the game, including acid, spikes, switches and both enemy types. There five enemies in this encounter are all in close proximity which is the first time the player experienced enemies like that. 
+
+Particularly during the tutorial level I would implement a softer challenge such as jumping over one spike, before making the player jump over a few of them. This allowed the player to now get overwhelmed while playing and have the difficulty increase as their skill level increases. After Introducing the move through platforms the player has to jump into the hallway. Although this is somewhat difficult it is also somewhat safe as holding the jump button too long just puts the player onto the pass-through platform again, allowing them to gain a level of precision with the button. 
 
 ### 1.4. Exploration
 How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+I wanted to have a contrast between the indoor and the outdoor areas in terms of aesthetic. The indoor areas look more barren, so that when the player gets outside or to the rooms with an entrance portal the difference makes the environments more memorable. To do this I added oversized tree roots to make the player feel smaller and as if they are in a fantastical sort of environment. Furthermore, I tried to have some areas that I haven’t seen in other games in attempt to make it feel more unique. The outdoor areas contrasting the indoor ones also allows the outdoor areas to be more memorable due to their more salient nature.
+
+The lack of a chase and not having anything that forces the player to continue allows them to take their time through the different encounters and areas should they wish to do so. In the outdoor areas players would hopefully want to spend more time there due to their more aesthetic nature.
+
 
 ## 2. Core Gameplay (~400 words)
 A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
@@ -103,19 +120,5 @@ I think that some of the later combat encounters could benefit from some more it
 Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
 An example has been included. Please replace this with any actual tools, and add more as necessary.
 
-
-### Tool Used: ChatGPT
-**Nature of Use** Finding relevant design theory.
-
-**Evidence Attached?** Screenshot of ChatGPT conversation included in the folder "GenAI" in this repo.
-
-**Additional Notes:** I used ChatGPT to try and find some more relevant design theory that I could apply to my game. After googling them, however, I found most of them were inaccurate, and some didn't exist. One theory mentioned, however, was useful, and I've incorporated it into my work.
-
-### Tool Used: Example
-**Nature of Use** Example Text
-
-**Evidence Attached?** Example Text
-
-**Additional Notes:** Example Text
-
+I did not use any generative AI in the production of this assignment, including chatGPT and Grammarly.
 
