@@ -20,7 +20,7 @@ Outline and justify how your level design facilitates the core player experience
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 During my level the player learns how defeat, interact with or avoid different game elements including chompers, switches and acid respectively. When introducing the staff I put a destructible column in front of it. The goal of doing this was to prompt the player to use the tool they had just picked up and give them a safe opportunity to use it before needing to use it against an enemy. However, doing so like this means the player won’t feel like they are being spoon fed how to do things in the game.
-!(DocImages/disc1.png)
+!(DocImages/disc1.PNG)
 
 
 By extension I tried to make sure that when introducing elements, I would have two sections of it, an easier and a more difficult part. This allowed me to implement the dramatic curve and not overwhelming the player with continuous new elements that seemed disconnected.
